@@ -42,5 +42,5 @@ def gen():
     "amount": 10**100
   }
 
-  with open("/data/minter.json", "w") as w:
+  with open("./minter.json", "w") as w:
     json.dump(mintData, w, indent=4)
